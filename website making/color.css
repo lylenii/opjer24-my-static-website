@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000px;
+}
+
+.navbar{
+    background: rgba(128, 128, 128, 0.5);
+    backdrop-filter: blur(10px);
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    color: white;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    border: 2px solid #fff;
+    background: white;
+    color: black;
+}
+
+div .logo-text{
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 25px;
+}
+
+body{
+    background-image: url(bg-body.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 110vh;
+}
+
+.mainsec{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.divsec{
+    color: white;
+    display: flex;
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    top: 300px;
+    left: 245px;
+    color: black;
+    line-height: 1;
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#des-hero{
+    position: absolute;
+    top: 380px;
+    left: 260px;
+    color: black;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    font-weight: 500px;
+}
